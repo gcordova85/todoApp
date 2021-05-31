@@ -1,0 +1,24 @@
+.Layout-main {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    min-height: 100vh;
+    padding: 0;
+}
+
+.Layout-card {
+    width: 100%;
+    color: #4b4b4b;
+    background: #fff;
+    margin: 0 auto 10px auto;
+    max-width: 400px;
+    border: solid 3px gray;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+
+    padding: 0 10px 10px;
+}

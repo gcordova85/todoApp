@@ -1,0 +1,28 @@
+.TodoList {
+    list-style-type: none;
+    padding-inline-start: 0px;
+    width: 100%;
+}
+
+.TodoList-task {
+    display: flex;
+    flex-direction: row;
+}
+
+.TodoList-task_check {
+    margin-right: 0px;
+    margin-left: 0px;
+    /* flex: 1; */
+}
+
+.TodoList-task_edit {
+    cursor: pointer;
+    color: cornflowerblue;
+    /* flex: 1; */
+}
+
+.TodoList-task_description {
+    margin-left: 10px;
+    margin-right: 10px;
+    flex:7
+}
